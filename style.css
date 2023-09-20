@@ -1,0 +1,38 @@
+*{
+    /*padding-ek értéke nem fog hozzáadódni a div szélességéhez,
+    hanem befelé fogja a padding-eket levonni és
+    a tartalmat fogja összenyomni.*/
+    box-sizing: border-box;
+}
+html{
+    size: 100%;
+}
+body{
+    background-image: url('bg-body.jpg');
+    background-size: contain;
+    background-position: top center;
+    background-attachment: fixed;
+    margin: 0;
+    color: blueviolet;
+    font-size: 20px;
+    font-style: italic;
+    line-height: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+div{
+    background-color: rgb(248, 208, 214);
+    max-width: 800px;
+    width: 90%;
+    padding: 10px;
+    margin: 5px auto;
+
+}
+
+.box{
+    background-color: white;
+    max-width: 600px;
+    width: 90%;
+    padding: 20px;
+    margin: 40px auto;
+}
